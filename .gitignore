@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+
+backend/target/
+*.log
+.idea/
+.vscode/
+backend.zip
