@@ -1,7 +1,7 @@
 services:
   app:
     build: ./backend
-    image: devops-spring:v1
+    image: ghcr.io/jjy0701/devops-spring:latest
     environment:
       DB_URL: jdbc:mysql://db:3306/devopsdb
       DB_USERNAME: devops

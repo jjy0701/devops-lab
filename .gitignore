@@ -7,3 +7,11 @@ backend/target/
 .idea/
 .vscode/
 backend.zip
+compose.backup.yaml
+
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/.terraform.lock.hcl
+**/tfplan
